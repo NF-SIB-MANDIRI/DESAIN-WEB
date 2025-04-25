@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datatable</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/3.2.2/css/buttons.dataTables.css">
+</head>
+<body>
+    <table id="data" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Main Genre</th>
+                <th>Sub Genres</th>
+                <th>Release Year</th>
+                <th>Maturity Rating</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ace Ventura: Pet Detective</td>
+                <td>Comedy</td>
+                <td>Comedy, Mystery, US</td>
+                <td>1994.0</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Ace Ventura: When Nature Calls</td>
+                <td>Comedy</td>
+                <td>Comedy, Mystery, US</td>
+                <td>1995.0</td>
+                <td>U/A 16+</td>
+            </tr>
+            <tr>
+                <td>The Addams Family</td>
+                <td>Comedy</td>
+                <td>San Francisco</td>
+                <td>1991.0</td>
+                <td>U/A 13+</td>
+            </tr>
+            <tr>
+                <td>Addams Family Values</td>
+                <td>Comedy</td>
+                <td>Comedy, US</td>
+                <td>1993.0</td>
+                <td>U/A 13+</td>
+            </tr>
+            <tr>
+                <td>Agneepath</td>
+                <td>Drama</td>
+                <td>Hindi-Language, Bollywood, Crime, Drama</td>
+                <td>1990.0</td>
+                <td>U/A 16+</td>
+            </tr>
+            <tr>
+                <td>Assassins</td>
+                <td>Action</td>
+                <td>Crime, Action & Adventure, US</td>
+                <td>1995.0</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Awakenings</td>
+                <td>Drama</td>
+                <td>Drama, Based on Books, US</td>
+                <td>1990.0</td>
+                <td>U/A 13+</td>
+            </tr>
+            <tr>
+                <td>Blue Thunder</td>
+                <td>action</td>
+                <td>Crime, Action & Adventure, US</td>
+                <td>1983.0</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>A Chinese Odyssey (Part I)</td>
+                <td>Action</td>
+                <td>Hong Kong, Comedy, Martial Arts, Based on Books.</td>
+                <td>1995.0</td>
+                <td>U/A 13+</td>
+            </tr>
+            <tr>
+                <td>Geronimo: An American Legend</td>
+                <td>Drama</td>
+                <td>Military, Drama, Westerns, Based on Real Life, US</td>
+                <td>1993.0</td>
+                <td>U/A 13+</td>
+            </tr>
+            <tr>
+                <td>Glory</td>
+                <td>Drama</td>
+                <td>Military, Drama, Based on Books, Period Pieces.</td>
+                <td>1989.0</td>
+                <td>U/A 16+</td>
+            </tr>
+            <tr>
+                <td>Grave of the Fireflies</td>
+                <td>Anime</td>
+                <td>Japanese, Anime based on Books.</td>
+                <td>1988.0</td>
+                <td>U/A 13+</td>
+            </tr>
+            <tr>
+                <td>Hudson Hawk</td>
+                <td>Action</td>
+                <td>Satires, Comedy, Action & Adventure, US</td>
+                <td>1991.0</td>
+                <td>U/A 16+</td>
+            </tr>
+            <tr>
+                <td>Mission: Impossible</td>
+                <td>Action</td>
+                <td>Action & Adventure, Spy, US</td>
+                <td>1996.0</td>
+                <td>U/A 16+</td>
+            </tr>
+            <tr>
+                <td>My Girl</td>
+                <td>Drama</td>
+                <td>Drama, US</td>
+                <td>1991.0</td>
+                <td>U/A 13+</td>
+            </tr>
+            <tr>
+                <td>The Net</td>
+                <td>SThriller</td>
+                <td>Thriller, US</td>
+                <td>1995.0</td>
+                <td>U/A 13+</td>
+            </tr>
+            <tr>
+                <td>Only You</td>
+                <td>Comedy</td>
+                <td>Romantic Comedies, Comedy, Romantic, US</td>
+                <td>1994.0</td>
+                <td>U/A 13+</td>
+            </tr>
+            <tr>
+                <td>The Professionals</td>
+                <td>action</td>
+                <td>Westerns, Based on Books, Action & Adventure, US</td>
+                <td>1996.0</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Pulp Fiction</td>
+                <td>Drama </td>
+                <td>Crime, Drama, Independent, US</td>
+                <td>1994.0</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Richard Pryor: Live in Concert</td>
+                <td>Comedy</td>
+                <td>Stand-Up Comedy</td>
+                <td>1979.0</td>
+                <td>A</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <th>Title</th>
+                <th>Main Genre</th>
+                <th>Sub Genres</th>
+                <th>Release Year</th>
+                <th>Maturity Rating</th>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.2.2/js/dataTables.buttons.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.2.2/js/buttons.dataTables.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.2.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.2.2/js/buttons.print.min.js"></script>
+    <script>
+        new DataTable('#data', {
+            layout: {
+                topStart: {
+                    buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
+                }
+            }
+        });
+    </script>
+</body>
+</html>
